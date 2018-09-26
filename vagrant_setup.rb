@@ -1,5 +1,5 @@
 module MyVars
 
-    GITHUB_USERNAME = "poldrack"
+    GITHUB_USERNAME = "3000farad"
 
 end
