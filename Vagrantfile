@@ -229,6 +229,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   end
     # uncomment following line to allow syncing to local machine
     config.vm.synced_folder ".", "/vagrant"
+    config.vm.synced_folder "../p162", "/jason"
     config.vm.provision "shell", :privileged => false, inline: $script
 
 end
